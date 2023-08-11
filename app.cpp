@@ -1,12 +1,12 @@
 #include <iostream>
 
-using namespace
+using namespace std;
 
 int main () {
-
-cout << "Please enter name";
+char name[10];
+cout << "Please enter name: ";
 cin >> name;
-cout << "You entered " << name << "as your name";
+cout << "You entered " << name << " as your name";
 
 	return 0;
 }
